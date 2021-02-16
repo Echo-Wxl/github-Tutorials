@@ -22,9 +22,9 @@ github使用教程
 | 粗体+斜体 |  *** *** | \*\*\*粗体+斜体\*** | ***粗体+斜体*** |
 
 ## 3. 引用文本
-示例：\>引用文本
 
-输出：
+`>引用文本`
+
 > 引用文本
 
 ## 4. 引用代码
@@ -46,8 +46,11 @@ git add
 
 例如：[Echo-Wxl](https://github.com/Echo-Wxl)
 ### 5.2 相对链接
-相对链接是相对于当前文件的链接。 例如，如果在仓库根目录下有一个自述文件，而在 docs/CONTRIBUTING.md 中有另一个文件，则自述文件中的 CONTRIBUTING.md 的相关链接如下所示：
-`[此项目的参与指南](docs/CONTRIBUTING.md)`
+相对链接是相对于当前文件的链接。 例如，如果在仓库根目录下有一个自述文件，而在 ./src/md/Test.md中有另一个文件，则：
+
+`[Test](./src/md/Test.md)`
+
+[Test](./src/md/Test.md)
 
 ## 6. 列表
 ### 6.1 有序列表
@@ -126,7 +129,10 @@ git add
 | 删除线 | ~~ ~~ | \~\~删除文本\~\~ | ~~删除文本~~ |
 | 粗体+斜体 |  *** *** | \*\*\*粗体+斜体\*** | ***粗体+斜体*** |
 
-## 10. 
+## 10. 插入图片
+- 先把图片上传到你的项目中，然后在github网站上按路径打开图片
+- 复制图片的网址
 
+`![bug](https://github.com/Echo-Wxl/github-Tutorials/blob/main/src/img/bug.gif)`
 
-
+![bug](https://github.com/Echo-Wxl/github-Tutorials/blob/main/src/img/bug.gif)
